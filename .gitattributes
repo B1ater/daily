@@ -1,0 +1,5 @@
+# 密文是二进制，绝不能让 git 做换行符转换或文本合并
+*.diary binary
+
+# 文本文件统一 LF，避免跨平台换行噪音
+* text=auto eol=lf

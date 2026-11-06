@@ -1,0 +1,10 @@
+# 只允许密文进仓库
+*.md
+*.txt
+*.markdown
+*.log
+*.json
+!README.md
+plain/
+node_modules/
+.env
